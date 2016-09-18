@@ -38,19 +38,15 @@ Aproape toate tutorialele de programare încep cu un prim program denumit `Hello
 
    + În Geany creați un fișier text nou, pe care îl salvalți cu denumirea `HelloWorld.cpp` (calea este relativă la `C:\cygwin64\home`).
    + În acest fișier introduceți următorele linii de cod:
-   {% highlight c %}
-   #include <iostream>
+{% highlight c %}
+#include <iostream>
 
-   int main void(){
-<<<<<<< HEAD
-      std::cout << "Hello world!";
-=======
-      std::cout << "Hello world!"
->>>>>>> 5d6e1fe9c683fa78740c5b0ff3c5918cf58f7b6e
-      
-      return 0;
-   }
-   {% endhighlight %}
+int main void(){
+   std::cout << "Hello world!";
+   
+   return 0;
+}
+{% endhighlight %}
    + Salvați fișierul și executați, din _toolbar_-ul Geany, `Build` și `Execute`.
    ![](/assets/ps_geany_compile-build-execute.png)
    + După execuție, apariția mesajului "Hello world!" ca în fereastra de mai jos indică faptul că totul este pregătit pentru restul aplicațiilor din acest seminar.
