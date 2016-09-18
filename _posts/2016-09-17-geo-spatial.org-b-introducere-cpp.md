@@ -42,7 +42,11 @@ Aproape toate tutorialele de programare încep cu un prim program denumit `Hello
    #include <iostream>
 
    int main void(){
+<<<<<<< HEAD
       std::cout << "Hello world!";
+=======
+      std::cout << "Hello world!"
+>>>>>>> 5d6e1fe9c683fa78740c5b0ff3c5918cf58f7b6e
       
       return 0;
    }
