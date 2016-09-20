@@ -47,6 +47,7 @@ int main void(){
    return 0;
 }
 {% endhighlight %}
+
    + Salvați fișierul și executați, din _toolbar_-ul Geany, `Build` și `Execute`.
    ![](/assets/ps_geany_compile-build-execute.png)
    + După execuție, apariția mesajului "Hello world!" ca în fereastra de mai jos indică faptul că totul este pregătit pentru restul aplicațiilor din acest seminar.
